@@ -19,7 +19,7 @@ var (
 	Client   *sql.DB
 	username = "root"
 	password = "mysql"
-	host     = "localhost:3306"
+	host     = "172.17.0.3:3306"
 	schema   = ""
 	// username = os.Getenv(mysql_users_username)
 	// password = os.Getenv(mysql_users_password)
